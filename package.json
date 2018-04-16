@@ -1,0 +1,15 @@
+{
+  "name": "path-utils",
+  "version": "0.1.0",
+  "description": "A collection of pathing utility scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Russell <crussell52@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "jsonexport": "^2.0.11"
+  }
+}

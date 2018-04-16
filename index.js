@@ -1,0 +1,1 @@
+console.log('You should run a more specific script!');
