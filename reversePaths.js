@@ -21,7 +21,7 @@ const convertFile = function(fileName) {
     //   1. Use the same base name
     //   2. Invert the left/right indicator
     //   3. append 'backward' to end of file name to visual distinguish from the original.
-    const outName = `${nameParts[1]}_${nameParts[2] === 'left' ? 'right' : 'left' }_detailed_backward.csv`;
+    const outName = `${nameParts[1]}_${nameParts[2] === 'left' ? 'right' : 'left' }_detailed.csv`;
 
     pathReverser(path.resolve(IN_DIR, fileName), path.resolve(OUT_DIR, outName));
 };

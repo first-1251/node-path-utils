@@ -18,7 +18,6 @@ to make the robot follow the path backwards.
 
   - Renames "right" file(s) to be "left" file(s) and vice versa
   - Negates `x`, `y`, `velocity`, and `jerk` values
-  - Appends `backward` to processed file names to provide easier visual identification of processed files. 
   
 **WARNING**
 
